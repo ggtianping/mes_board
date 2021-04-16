@@ -4,8 +4,14 @@ $(function(){
     $('.submit').click(()=>{
         let _name = $('.name').val();
             _msg = $('.message').val();
-        m.set(_name,_msg);
-        listShow();
+        if( _name==''){
+            alert('请输入您的昵称！');
+        }else if(_msg==''){
+            alert('请输入您的留言！');
+        }else{
+             m.set(_name,_msg);
+             listShow();
+        };
     })
     // 留言显示
     let listShow = () =>{
