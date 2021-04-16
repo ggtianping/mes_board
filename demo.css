@@ -1,0 +1,24 @@
+/*
+* @Author: Marte
+* @Date:   2021-04-16 23:41:10
+* @Last Modified by:   Marte
+* @Last Modified time: 2021-04-17 02:03:28
+*/
+ .control-label{
+            float:left;
+            padding-top: 7px;
+            margin-bottom: 0;
+        }
+.form-horizontal .control-label{
+    text-align: left !important;
+}
+.panel{
+    overflow: hidden;
+    border: 2px solid #2d7dcb;
+    border-radius: 5px;
+}
+.panel-heading{
+    background: #2d7dcb;
+    color: #fff;
+    font-size: 18px;
+}
