@@ -67,7 +67,7 @@ let vm = new Vue({
             alert('请输入您的留言！');
             that.cname = '';
         }else{
-            that.list.push({
+            that.list.unshift({
                 cname: _name,
                 message:_msg
             });
